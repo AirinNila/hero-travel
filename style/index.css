@@ -234,6 +234,36 @@ nav h2 {
     border-radius: 15px;
 }
 
+/* choose section style */
+
+.choose {
+    margin-top: 100px;
+}
+
+.choose-des1 h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.choose-des1 p {
+    font-size: 1rem;
+    color: #5A5A5D;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+/* choose-des2 style */
+
+.choose-des2 {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /* responsive style */
