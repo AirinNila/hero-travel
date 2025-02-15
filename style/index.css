@@ -276,4 +276,30 @@ nav {
     max-width: 550px;
 }
 
+/* destination section */
+
+.destination h2 {
+    font-size: 1.4rem;
+   
+}
+
+.destination p {
+    font-size: 0.8;
+}
+
+.des-img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.des-img {
+    width: 100%;
+}
+
+
+
 }
