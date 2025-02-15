@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header , main{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* nav style */
+
+nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+nav li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+nav h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.colour {
+    color: #ff5400;
+}
+
+/* explore style */
+
+.explore {
+    margin-top: 30px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)) ,url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+   border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 30px;
+}
+
+.explore h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.explore p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* inputs style */
+
+.inputs {
+    display: flex;
+    padding: 10px 10px;
+    background-color: white;
+    opacity: 0.3;
+    border-radius: 10px;
+    border: none;
+    gap: 20px;
+    
+}
+
+.input {
+    height: 2.8rem;
+    width: 7rem;
+    background-color: white;
+    opacity: 1;
+}
+
+.primart-btn {
+    background-color: #ff5400;
+    opacity: 1;
+}
+
+/* responsive style */
+
+@media screen and (max-width: 576px) {
+    
+
+
+header , main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav {
+    flex-direction: column;
+    gap: 20px;
+}
+
+nav h2 {
+    font-size: 2.8rem;
+}
+
+}
