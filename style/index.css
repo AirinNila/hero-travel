@@ -125,6 +125,12 @@ nav h2 {
     
 }
 
+.des {
+    font-size: 1rem;
+    color: #5A5A5D;
+    margin-top: 20px;
+}
+
 /* tour section style */
 
 .tour {
@@ -322,6 +328,76 @@ nav h2 {
     display: flex;
     justify-content: center;
 
+}
+
+/* deal-des style */
+
+.deal-des {
+    margin-top: 100px;
+    text-align: center;
+   
+}
+
+.deal-imgs {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.book-now {
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 450px;
+    justify-content: end;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.book-now-img1 {
+    background-image: url(/Images/Group\ 39.png);
+}
+
+.book-now-img2{
+    background-image: url(/Images/Group\ 40.png);
+    justify-content: start;
+    
+}
+
+.book-now-img3 {
+    background-image: url(/Images/Group\ 41.png);
+}
+
+.book-now-des {
+    padding: 40px 40px;
+    background-image: linear-gradient(rgba(246, 244, 244, 0.8), rgba(246, 244, 244, 0.8));
+    width: 450px;
+    border-radius: 20px;
+    margin-right: 50px;
+}
+
+.book-now-des2 {
+    margin-left: 50px;
+}
+
+.book-now-des h3 {
+    font-size: 1.6rem;
+    color: #131318;
+    margin-top: 20px;
+}
+
+.day {
+    display: flex;
+    gap: 8px;
+}
+
+.bottom {
+    margin-top: 20px;
 }
 
 
