@@ -312,7 +312,7 @@ nav h2 {
 
 .choose-content3 {
     background-color: #fef6f6;
-    border: 1.5px solid #fbd1d1;
+    border: 1.5px solid #fce2e2;
     width: 45%;
 
 }
@@ -400,6 +400,17 @@ nav {
     width: 100%;
 }
 
+
+/* choose-des2 style */
+
+.choose-des2 {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.choose-content3 {
+    width: 100%;
+}
 
 
 }
