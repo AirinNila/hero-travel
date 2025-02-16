@@ -19,6 +19,11 @@ header , main{
 
 /* nav style */
 
+.logo {
+    display: flex;
+    gap: 10px;
+}
+
 nav {
     margin-top: 30px;
     display: flex;
