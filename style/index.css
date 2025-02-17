@@ -126,6 +126,11 @@ nav h2 {
     
 }
 
+.gray {
+    font-size: 1rem;
+    color: #5A5A5D;
+}
+
 .des {
     font-size: 1rem;
     color: #5A5A5D;
@@ -253,13 +258,14 @@ nav h2 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
-    font-size: 1.8rem;
-    font-weight: 700;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    
 }
 
 /* choose section style */
@@ -423,6 +429,86 @@ nav h2 {
     justify-content: center;
 }
 
+/* perfect-place style */
+
+.perfect-place {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfect-place-des h2 {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.perfect-place-des li {
+    margin-left: 40px;
+    color: #131318;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.perfect-place-img {
+    background-image: url(/Images/Group\ 40089.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+   
+}
+
+/* sign-up style */
+
+.sign-up {
+    margin-top: 50px;
+    display: flex;
+  gap: 10px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 2px solid #ff5400 ;
+    border-radius: 20px;
+    padding: 30px 30px;
+}
+
+.name {
+    background-color: #1313180d;
+    color: #1313184d;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+
+.save-up {
+    background-image: url(/Images/Rectangle\ 8.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    width: 70%;
+    height: 350px;
+}
+
 
 /* responsive style */
 
@@ -521,6 +607,24 @@ nav {
 
 .first-facility {
     grid-column: span 2;
+}
+
+/* perfect-place style */
+
+.perfect-place {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.perfect-place-img {
+    height: 400px;
+}
+
+/* sign-up style */
+
+.sign-up {
+    flex-direction: column;
+    gap: 20px;
 }
 
 }
