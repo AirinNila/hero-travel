@@ -382,6 +382,8 @@ nav h2 {
     border-radius: 20px;
     margin-right: 50px;
     margin-left: 50px;
+    margin-bottom: 50px ;
+    margin-top: 50px;
 }
 
 .book-now-des2 {
@@ -394,9 +396,21 @@ nav h2 {
     margin-top: 20px;
 }
 
-.day {
+/* day style */
+
+
+.facilities-container {
     display: flex;
-    gap: 8px;
+    gap: 10px;
+    align-items: center;
+    color: #5A5A5D;
+    font-size: 1rem;
+}
+
+.facilities {
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
 
 .bottom {
@@ -412,7 +426,7 @@ nav h2 {
 
 /* responsive style */
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 315px) and (max-width: 576px) {
     
 
 
@@ -497,5 +511,16 @@ nav {
     width: 100%;
 }
 
+/* facilities style */
+
+.facilities-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.first-facility {
+    grid-column: span 2;
+}
 
 }
