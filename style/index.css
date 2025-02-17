@@ -117,11 +117,12 @@ nav h2 {
 
 .primary-btn {
     background-color: #ff5400;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     font-size: 1.2rem;
     padding: 10px 15px;
     color: white;
+    display: inline-block;
     
 }
 
@@ -130,6 +131,7 @@ nav h2 {
     color: #5A5A5D;
     margin-top: 20px;
 }
+
 
 /* tour section style */
 
@@ -379,6 +381,7 @@ nav h2 {
     width: 450px;
     border-radius: 20px;
     margin-right: 50px;
+    margin-left: 50px;
 }
 
 .book-now-des2 {
@@ -398,6 +401,12 @@ nav h2 {
 
 .bottom {
     margin-top: 20px;
+}
+
+.see-all-btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 
