@@ -530,6 +530,35 @@ nav h2 {
     font-weight: 700;
 }
 
+/* footer style */
+
+.footer {
+    margin-top: 50px;
+    background-color: #1313180d;
+    padding: 100px 200px;
+    color: #5A5A5D;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.social-media-icons {
+    display: flex;
+    gap: 30px;
+    color: #131318;
+    font-size: 2rem;
+}
+
+.rights {
+    padding-top: 35px;
+    border-top: #5A5A5D 1px solid;
+    margin-top: 10px;
+    width: 100%;
+}
+
 
 /* responsive style */
 
@@ -650,6 +679,12 @@ nav {
 
 .save-up {
     width: 100%;
+}
+
+/* footer style  */
+
+.footer {
+    padding: 30px 30px;
 }
 
 }
