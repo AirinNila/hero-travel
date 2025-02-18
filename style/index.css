@@ -493,20 +493,41 @@ nav h2 {
 }
 
 .save-up {
-    background-image: url(/Images/Rectangle\ 8.png);
+    background-image: url(/Images/Rectangle\ 8\ \(1\).png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     border-radius: 15px;
     color: white;
-    font-size: 1.8rem;
-    font-weight: 700;
     width: 70%;
     height: 350px;
+    position: relative;
+}
+
+.discount {
+    background-color: #ff5400;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 50px;
+    right: 5px;
+    border-radius: 15px;
+    transform: rotate(-30deg);
+}
+
+.discount p {
+    font-size: 1rem;
+}
+
+.discount h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
 }
 
 
@@ -625,6 +646,10 @@ nav {
 .sign-up {
     flex-direction: column;
     gap: 20px;
+}
+
+.save-up {
+    width: 100%;
 }
 
 }
