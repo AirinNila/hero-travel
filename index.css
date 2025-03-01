@@ -55,7 +55,7 @@ nav h2 {
 
 .explore {
     margin-top: 30px;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)) ,url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)) ,url(./Images/group13.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -229,27 +229,27 @@ nav h2 {
 }
 
 .des-img1 {
-    background-image: url(/Images/Rectangle\ 5.png);
+    background-image: url(./Images/Rectangle-5.png);
     
 }
 
 .des-img2 {
-    background-image: url(/Images/Rectangle\ 8.png);
+    background-image: url(./Images/dip.png);
 }
 .des-img3 {
-    background-image: url(/Images/Rectangle\ 6.png);
+    background-image: url(./Images/Rectangle-6.png);
 }
 .des-img4 {
-    background-image: url(/Images/Rectangle\ 7.png);
+    background-image: url(./Images/Rectangle-7.png);
 }
 .des-img5 {
-    background-image: url(/Images/Rectangle\ 9.png);
+    background-image: url(./Images/Rectangle-9.png);
 }
 .des-img6 {
-    background-image: url(/Images/Rectangle\ 11.png);
+    background-image: url(./Images/Rectangle-11.png);
 }
 .des-img7 {
-    background-image: url(/Images/Rectangle\ 10.png);
+    background-image: url(./Images/Rectangle-10.png);
 }
 
 .des-img {
@@ -368,17 +368,17 @@ nav h2 {
 }
 
 .book-now-img1 {
-    background-image: url(/Images/Group\ 39.png);
+    background-image: url(./Images/Group-39.png);
 }
 
 .book-now-img2{
-    background-image: url(/Images/Group\ 40.png);
+    background-image: url(./Images/Group-40.png);
     justify-content: start;
     
 }
 
 .book-now-img3 {
-    background-image: url(/Images/Group\ 41.png);
+    background-image: url(./Images/Group-41.png);
 }
 
 .book-now-des {
@@ -451,7 +451,7 @@ nav h2 {
 }
 
 .perfect-place-img {
-    background-image: url(/Images/Group\ 40089.png);
+    background-image: url(./Images/Group-40089.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -493,7 +493,7 @@ nav h2 {
 }
 
 .save-up {
-    background-image: url(/Images/Rectangle\ 8\ \(1\).png);
+    background-image: url(./Images/dip.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
